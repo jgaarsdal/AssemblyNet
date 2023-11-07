@@ -4,9 +4,9 @@ Official PyTorch implementation of "AssemblyNet: A Point Cloud Dataset and Bench
 
 AssemblyNet is a novel point cloud dataset for the prediction of part directions used in the automatic generation of exploded view animations. We benchmarked the dataset on four well-known point cloud based methods as well as two novel methods using a two-path approach with two different backbones.
 
-For further information, please contact [Jesper Gaarsdal](gaarsdal.jesper@gmail.com).
+For further information, please contact [Jesper Gaarsdal](mailto:gaarsdal.jesper@gmail.com).
 
-<img src='./figures/task-overview.png' width=800>
+<img src='./figures/task-overview.png' width=600>
 
 ## Abstract
 Exploded views are powerful tools for visualizing the assembly and disassembly of complex objects, widely used in technical illustrations, assembly instructions, and product presentations. Previous methods for automating the creation of exploded views are either slow and computationally costly or compromise on accuracy. Therefore, the construction of exploded views is typically a manual process. In this paper, we propose a novel approach for automatically predicting the direction of parts in an exploded view using deep learning. To achieve this, we introduce a new dataset, AssemblyNet, which contains point cloud data sampled from 3D models of real-world assemblies, including water pumps, mixed industrial assemblies, and LEGO models. 
@@ -36,7 +36,7 @@ We also designed and tested a novel two-path approach, using either DGCNN or Poi
 
 ## Requirements
 
-Requirements can be found in the requirements.txt file.
+Requirements can be found in the [requirements.txt file](./requirements.txt).
 
 ## Citation
 If you find this dataset and our work useful for your research, please consider citing the paper:
@@ -50,4 +50,4 @@ If you find this dataset and our work useful for your research, please consider 
 	}
 
 ## License
-MIT License
+[MIT License](./LICENSE).
