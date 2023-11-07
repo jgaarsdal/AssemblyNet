@@ -6,9 +6,7 @@ AssemblyNet is a novel point cloud dataset for the prediction of part directions
 
 For further information, please contact [Jesper Gaarsdal](mailto:gaarsdal.jesper@gmail.com).
 
-<div style="text-align:center">
-    <img src='./figures/task-overview.png' width=600>
-</div>
+<img src='./figures/task-overview.png' width=600>
 
 ## Abstract
 Exploded views are powerful tools for visualizing the assembly and disassembly of complex objects, widely used in technical illustrations, assembly instructions, and product presentations. Previous methods for automating the creation of exploded views are either slow and computationally costly or compromise on accuracy. Therefore, the construction of exploded views is typically a manual process. In this paper, we propose a novel approach for automatically predicting the direction of parts in an exploded view using deep learning. To achieve this, we introduce a new dataset, AssemblyNet, which contains point cloud data sampled from 3D models of real-world assemblies, including water pumps, mixed industrial assemblies, and LEGO models. 
