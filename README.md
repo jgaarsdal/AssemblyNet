@@ -43,12 +43,13 @@ Requirements can be found in the [requirements.txt file](./requirements.txt).
 ## Citation
 If you find this dataset and our work useful for your research, please consider citing the paper:
 
-	@InProceedings{Gaarsdal2024AssemblyNet,
+	@InProceedings{Gaarsdal_2024_WACV,
 	  title={AssemblyNet: A Point Cloud Dataset and Benchmark for Predicting Part Directions in an Exploded Layout},
-	  author={Gaarsdal, Jesper and Haurum, Joakim Bruslund and Wolff, Sune and Madsen, Claus Brøndgaard},
+	  author={Gaarsdal, Jesper and Haurum, Joakim Bruslund and Wolff, Sune and Madsen, Claus Br{\o}ndgaard},
 	  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
 	  month={January},
-      year={2024}
+      year={2024},
+	  pages={5836-5845}
 	}
 
 ## License
