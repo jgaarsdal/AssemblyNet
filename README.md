@@ -4,6 +4,8 @@ Official PyTorch implementation of "AssemblyNet: A Point Cloud Dataset and Bench
 
 AssemblyNet is a novel point cloud dataset for the prediction of part directions used in the automatic generation of exploded view animations. We benchmarked the dataset on four well-known point cloud based methods as well as two novel methods using a two-path approach with two different backbones.
 
+The paper is currently available in an Open Access version [here](https://openaccess.thecvf.com/content/WACV2024/html/Gaarsdal_AssemblyNet_A_Point_Cloud_Dataset_and_Benchmark_for_Predicting_Part_WACV_2024_paper.html).
+
 For further information, please contact [Jesper Gaarsdal](mailto:gaarsdal.jesper@gmail.com).
 
 <img src='./figures/task-overview.png' width=800>
@@ -31,8 +33,8 @@ The four state-of-the-art models used in our benchmarks are:
 
 We also designed and tested a novel two-path approach, using either DGCNN or PointNet++ as the backbone:
 
-* [2P-DGCNN](./models/2p-dgcnn.py)
-* [2P-PointNet2](./models/2p-pointnet2.py)
+* [TP-DGCNN](./models/2p-dgcnn.py)
+* [TP-PointNet2](./models/2p-pointnet2.py)
 
 ## Requirements
 
