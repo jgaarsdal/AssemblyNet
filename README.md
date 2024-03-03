@@ -52,5 +52,8 @@ If you find this dataset and our work useful for your research, please consider 
 	  pages={5836-5845}
 	}
 
+## Releases
+[![DOI](https://zenodo.org/badge/713880709.svg)](https://zenodo.org/doi/10.5281/zenodo.10775243)
+
 ## License
 [MIT License](./LICENSE).
